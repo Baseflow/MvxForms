@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:MvxFormsPage x:TypeArguments="viewModels:MainViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MvxForms.Core"
+    x:Class="MvxForms.Core.MvxFormsPage"
+    xmlns:viewModels="clr-namespace:MvxForms.Core.ViewModels;assembly=MvxForms.Core"
+    xmlns:d="clr-namespace:MvxForms.Core;assembly=MvxForms.Core">
+	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+</d:MvxFormsPage>
