@@ -4,6 +4,7 @@ using MvvmCross.Forms.iOS.Presenters;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform.Platform;
+using MvxForms.Core;
 using UIKit;
 
 namespace MvxForms.iOS
@@ -12,11 +13,6 @@ namespace MvxForms.iOS
     {
         public Setup(IMvxApplicationDelegate applicationDelegate, UIWindow window)
             : base(applicationDelegate, window)
-        {
-        }
-
-        public Setup(IMvxApplicationDelegate applicationDelegate, UIWindow window, IMvxIosViewPresenter presenter)
-            : base(applicationDelegate, window, presenter)
         {
         }
 

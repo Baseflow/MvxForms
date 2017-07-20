@@ -3,9 +3,9 @@ using MvvmCross.Core.ViewModels;
 
 namespace MvxForms.Core.ViewModels
 {
-    public class MainViewModel : MvxViewModel
+    public class MvxFormsViewModel : MvxViewModel
     {
-        public MainViewModel()
+        public MvxFormsViewModel()
         {
         }
         

@@ -5,6 +5,7 @@ using MvvmCross.Platform.Platform;
 using MvvmCross.Droid.Views;
 using MvvmCross.Forms.Droid.Presenters;
 using MvvmCross.Forms.Droid;
+using MvxForms.Core;
 
 namespace MvxForms.Droid
 {

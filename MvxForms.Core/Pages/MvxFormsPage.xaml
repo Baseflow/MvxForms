@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d:MvxContentPage x:TypeArguments="viewModels:MvxFormsViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MvxForms.Core.Pages"
+    x:Class="MvxForms.Core.Pages.MvxFormsPage"
+    xmlns:viewModels="clr-namespace:MvxForms.Core.ViewModels;assembly=MvxForms.Core"
+    xmlns:d="clr-namespace:MvvmCross.Forms.Core;assembly=MvvmCross.Core">
+	<ContentPage.Content>
+        <Label Text="MvvmCross and Xamarin.Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	</ContentPage.Content>
+</d:MvxContentPage>
