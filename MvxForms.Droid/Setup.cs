@@ -1,8 +1,9 @@
 using Android.Content;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
-using MvvmCross.Forms.Droid;
 using MvxForms.Core;
+using MvvmCross.Forms.Droid.Platform;
+using MvvmCross.Forms.Platform;
 
 namespace MvxForms.Droid
 {
