@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:MvxForms.Core.Pages"
     x:Class="MvxForms.Core.Pages.MvxFormsPage"
     xmlns:viewModels="clr-namespace:MvxForms.Core.ViewModels;assembly=MvxForms.Core"
-    xmlns:d="clr-namespace:MvvmCross.Forms.Core;assembly=MvvmCross.Core">
+    xmlns:d="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms">
 	<ContentPage.Content>
         <Label Text="MvvmCross and Xamarin.Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
 	</ContentPage.Content>

@@ -1,11 +1,10 @@
-using MvvmCross.Core.ViewModels;
 using MvvmCross.Forms.iOS;
-using MvvmCross.Forms.iOS.Presenters;
-using MvvmCross.iOS.Platform;
-using MvvmCross.iOS.Views.Presenters;
-using MvvmCross.Platform.Platform;
+using MvvmCross.Forms.Platform;
 using MvxForms.Core;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.iOS.Platform;
 using UIKit;
+using MvvmCross.Platform.Platform;
 
 namespace MvxForms.iOS
 {
@@ -16,7 +15,7 @@ namespace MvxForms.iOS
         {
         }
 
-        protected override MvvmCross.Forms.Core.MvxFormsApplication CreateFormsApplication()
+        protected override MvxFormsApplication CreateFormsApplication()
         {
             return new App();
         }
