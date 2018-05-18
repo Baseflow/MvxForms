@@ -1,19 +1,13 @@
-using Android.Content;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform.Platform;
+﻿using Android.Content;
+using MvvmCross.Forms.Platforms.Android.Core;
+using MvvmCross.ViewModels;
 using MvxForms.Core;
-using MvvmCross.Forms.Droid.Platform;
-using MvvmCross.Forms.Platform;
 
 namespace MvxForms.Droid
 {
     public class Setup : MvxFormsAndroidSetup
     {
-        public Setup(Context applicationContext) : base(applicationContext)
-        {
-        }
-
-        protected override MvxFormsApplication CreateFormsApplication()
+        protected override Xamarin.Forms.Application CreateFormsApplication()
         {
             return new App();
         }
@@ -21,11 +15,6 @@ namespace MvxForms.Droid
         protected override IMvxApplication CreateApp()
         {
             return new Core.CoreApp();
-        }
-
-        protected override IMvxTrace CreateDebugTrace()
-        {
-            return new DebugTrace();
         }
     }
 }

@@ -1,9 +1,8 @@
-﻿
-using MvvmCross.Forms.Platform;
+﻿using Xamarin.Forms;
 
 namespace MvxForms.Core
 {
-    public partial class App : MvxFormsApplication
+    public partial class App : Application
     {
         public App()
         {

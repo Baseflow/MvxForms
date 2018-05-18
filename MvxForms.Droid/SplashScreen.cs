@@ -1,6 +1,7 @@
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using MvvmCross.Droid.Views;
+using Android.OS;
+using MvvmCross.Platforms.Android.Views;
 
 namespace MvxForms.Droid
 {
@@ -18,10 +19,10 @@ namespace MvxForms.Droid
         {
         }
 
-        protected override void TriggerFirstNavigate()
+        protected override void RunAppStart(Bundle bundle)
         {
             StartActivity(typeof(MainActivity));
-            base.TriggerFirstNavigate();
+            base.RunAppStart(bundle);
         }
     }
 }

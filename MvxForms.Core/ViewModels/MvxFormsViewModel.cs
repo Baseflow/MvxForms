@@ -1,5 +1,6 @@
-using System.Threading.Tasks;
-using MvvmCross.Core.ViewModels;
+﻿using System.Threading.Tasks;
+using MvvmCross.Commands;
+using MvvmCross.ViewModels;
 
 namespace MvxForms.Core.ViewModels
 {

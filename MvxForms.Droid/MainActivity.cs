@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using MvvmCross.Forms.Droid.Views;
+using MvvmCross.Forms.Platforms.Android.Views;
 
 namespace MvxForms.Droid
 {

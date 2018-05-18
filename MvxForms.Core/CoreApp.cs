@@ -1,8 +1,9 @@
-using MvvmCross.Platform.IoC;
+﻿using MvvmCross.IoC;
+using MvvmCross.ViewModels;
 
 namespace MvxForms.Core
 {
-    public class CoreApp : MvvmCross.Core.ViewModels.MvxApplication
+    public class CoreApp : MvxApplication
     {
         public override void Initialize()
         {
@@ -11,7 +12,7 @@ namespace MvxForms.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterNavigationServiceAppStart<ViewModels.MvxFormsViewModel>();
+            RegisterAppStart<ViewModels.MvxFormsViewModel>();
         }
     }
 }
