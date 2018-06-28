@@ -5,16 +5,7 @@ using MvxForms.Core;
 
 namespace MvxForms.Droid
 {
-    public class Setup : MvxFormsAndroidSetup
+    public class Setup : MvxFormsAndroidSetup<CoreApp, App>
     {
-        protected override Xamarin.Forms.Application CreateFormsApplication()
-        {
-            return new App();
-        }
-
-        protected override IMvxApplication CreateApp()
-        {
-            return new Core.CoreApp();
-        }
     }
 }
